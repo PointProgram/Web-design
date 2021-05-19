@@ -1,0 +1,18 @@
+#logo img {
+    display: block;
+    max-width: 15%;
+    max-height: 15%;
+    padding-left: 0;
+    margin-left: 0;
+    }
+    
+.fakeimg img{
+    height: 200px;
+    background: #aaa;
+}
+
+#profile {
+    background-color: rgb(165, 221, 221);
+    padding-top: 100px;
+}
+

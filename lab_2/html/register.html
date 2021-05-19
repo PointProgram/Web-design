@@ -1,0 +1,150 @@
+<!DOCTYPE html>
+<html land="en">
+<head>
+	<meta charset="UTF-8">
+	<meta name = "viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+	<title>Faraway - learn far</title>
+
+  <link rel="shortcut icon" type="image/x-icon" href="favicon.ico" />
+
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+  
+  <link rel="icon" type="image/x-icon" href="../img/favicon.ico" />
+  <link href="../css/style.css" rel="stylesheet" media="all">
+  <link href="../css/register.css" rel="stylesheet" media="all">
+
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+
+	
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+</head>
+<body>
+<section class="page-section register" id="register">
+    <div class="container">
+      <div class="row"></div>
+      <div class="col-md-12">
+        <div class="card"></div>
+        <div class="card-header">
+          <h1>Register</h1>
+          <p>Please fill in this form to create an account.</p>
+          <hr>
+        </div>
+        
+        <div class = "card-body" >
+          <form class="form-horizontal needs-validation"  novalidate><!--method="post" action="#"-->
+
+            <div class="form-group">
+              <label for="name" class="cols-sm-2 control-label">First Name</label>
+              <div class="cols-sm-10">
+                  <div class="input-group">
+                      <span class="input-group-addon"><i class="fa fa-user fa" aria-hidden="true"></i></span>
+                      <input type="text" class="form-control" name="firstname" id="firstname" placeholder="Enter your Name" required>
+                      <div class="valid-feedback">
+                        Looks good!
+                      </div>
+                  </div>
+              </div>
+          </div>
+
+          <div class="form-group">
+            <label for="surname" class="cols-sm-2 control-label">Last Name</label>
+            <div class="cols-sm-10">
+                <div class="input-group">
+                    <span class="input-group-addon"><i class="fa fa-user fa" aria-hidden="true"></i></span>
+                    <input type="text" class="form-control" name="surname" id="surname" placeholder="Enter your Surame" required>
+                    <div class="valid-feedback">
+                      Looks good!
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div class="form-group">
+          <label for="email" class="cols-sm-2 control-label">Email</label>
+          <div class="cols-sm-10">
+              <div class="input-group">
+                  <span class="input-group-addon"><i class="fa fa-envelope fa" aria-hidden="true"></i></span>
+                  <input type="text" class="form-control" name="email" id="email" placeholder="Enter your Email" required>
+                  <div class="invalid-feedback">
+                    Please provide a valid email.
+                  </div>
+              </div>
+          </div>
+      </div>
+
+      <div class="form-group">
+        <label for="birthday" class="cols-sm-2 control-label">Birthday</label>
+        <div class="cols-sm-10">
+            <div class="input-group">
+                <span class="input-group-addon"><i class="fa fa-envelope fa" aria-hidden="true"></i></span>
+                <input type="date" class="form-control" name="birthday" id="birthday" placeholder="Enter your Birthday" required>
+                <div class="invalid-feedback">
+                  Please provide a valid birthday.
+                </div>
+            </div>
+        </div>
+
+        <div class="form-group">
+        <label for="gender" class="cols-sm-2 control-label">Gender</label>
+        <div class="cols-sm-10">
+            <div class="input-group">
+              <div class="custom-control custom-radio custom-control-inline">
+                <input type="radio" class="custom-control-input" id="defaultInline1" name="inlineDefaultRadiosExample" checked>
+                <label class="custom-control-label" for="defaultInline1">Male</label>
+              </div>
+              
+              <!-- Default inline 2-->
+              <div class="custom-control custom-radio custom-control-inline">
+                <input type="radio" class="custom-control-input" id="defaultInline2" name="inlineDefaultRadiosExample">
+                <label class="custom-control-label" for="defaultInline2">Female</label>
+              </div>
+            </div>
+        </div>
+
+        <div class="form-group">
+          <label for="password" class="cols-sm-2 control-label">Password</label>
+          <div class="cols-sm-10">
+              <div class="input-group">
+                  <span class="input-group-addon"><i class="fa fa-lock fa-lg" aria-hidden="true"></i></span>
+                  <input type="password" class="form-control" name="password" id="password" placeholder="Enter your Password" autocomplete="on" required>
+                  <div class="invalid-feedback">
+                    Please provide a valid Password.
+                  </div>
+              </div>
+          </div>
+      </div>
+      <div class="form-group">
+          <label for="confirm" class="cols-sm-2 control-label">Confirm Password</label>
+          <div class="cols-sm-10">
+              <div class="input-group">
+                  <span class="input-group-addon"><i class="fa fa-lock fa-lg" aria-hidden="true"></i></span>
+                  <input type="password" class="form-control" name="confirm" id="confirm" placeholder="Confirm your Password" autocomplete="on" required>
+                  <div class="invalid-feedback">
+                    Please provide a valid Password.
+                  </div>
+              </div>
+          </div>
+      </div>
+
+      <div class="form-group ">
+        <button  class="btn btn-primary btn-lg btn-block login-button" id = "reg" type="button">Register</button>
+    </div>
+      
+    <div class="container signin">
+      <p>Already have an account? <a href="login.html">Sign in</a>.</p>
+    </div>
+
+    </div>
+           </form>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+      <hr>              
+    </div>
+  </section>
+  <script type="module" src="../js/controller/controlWindow.js"></script>
+  <script type="module" src="../js/mainRegister.js"></script>
+</body>
