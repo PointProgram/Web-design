@@ -1,5 +1,5 @@
 
-###Functional Web-application of the word learning app "Faraway" using the MVC template
+## Functional Web-application of the word learning app "Faraway" using the MVC template
 
 ## General info about the foreign word learning app "Faraway"
 
