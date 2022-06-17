@@ -29,4 +29,4 @@ It is possible to consolidate the learned words. To do this, if you add new word
 
 ## Class diagram of Javascript functionality
 
-![Diagram](./img/diagram.png)
+<img src="./img/diagram.png" alt="Diagram" width="42" height="42" style="vertical-align:middle;margin:0px 50px;background-color:white">
